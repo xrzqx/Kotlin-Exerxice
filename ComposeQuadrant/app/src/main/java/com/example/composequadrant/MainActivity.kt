@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    ComposableInfoCard("Android","test", Color.Cyan)
+                    ComposeQuadrantApp()
                 }
             }
         }
